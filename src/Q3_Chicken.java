@@ -1,7 +1,7 @@
-public class Q3_KFC extends Q3_Store{
+public class Q3_Chicken extends Q3_Store{
     private int chickenCount;
 
-    public Q3_KFC(String name, int employees, boolean isOpen, int chickenCount) {
+    public Q3_Chicken(String name, int employees, boolean isOpen, int chickenCount) {
         super(name, employees, isOpen);
         this.chickenCount = chickenCount;
     }
